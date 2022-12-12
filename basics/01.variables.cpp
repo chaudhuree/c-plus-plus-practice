@@ -16,6 +16,6 @@ int main(){
   temp=a;
   a=b;
   b=temp;
-  cout<<a;
-  // cout<<b;
+  // cout<<a;
+  cout<<b;
 }
