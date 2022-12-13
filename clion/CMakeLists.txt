@@ -3,4 +3,4 @@ project(clion)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(clion main.cpp)
+add_executable(clion main.cpp exercise.cpp)
