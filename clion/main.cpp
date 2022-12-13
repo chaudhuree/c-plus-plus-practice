@@ -3,9 +3,11 @@
 using namespace std;
 
 int main() {
-    int x, y;
-    cout << "enter the value for x and y: " << endl;
-    cin >> x >> y;
-    cout << x + y;
+//    exercise  F to c
+//To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9).
+    double F;
+    cout << "enter the degree in Fahrenheit: ";
+    cin >> F;
+    cout << "Fahrenheit to Celsius is: " << (F - 32) * .5556 << endl;
     return 0;
 }
