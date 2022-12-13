@@ -55,12 +55,6 @@ build CMakeFiles/clion.dir/main.cpp.obj: CXX_COMPILER__clion_Debug D$:/codes/c++
   OBJECT_DIR = CMakeFiles\clion.dir
   OBJECT_FILE_DIR = CMakeFiles\clion.dir
 
-build CMakeFiles/clion.dir/exercise.cpp.obj: CXX_COMPILER__clion_Debug D$:/codes/c++/clion/exercise.cpp || cmake_object_order_depends_target_clion
-  DEP_FILE = CMakeFiles\clion.dir\exercise.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\clion.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target clion
@@ -69,7 +63,7 @@ build CMakeFiles/clion.dir/exercise.cpp.obj: CXX_COMPILER__clion_Debug D$:/codes
 #############################################
 # Link the executable clion.exe
 
-build clion.exe: CXX_EXECUTABLE_LINKER__clion_Debug CMakeFiles/clion.dir/main.cpp.obj CMakeFiles/clion.dir/exercise.cpp.obj
+build clion.exe: CXX_EXECUTABLE_LINKER__clion_Debug CMakeFiles/clion.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\clion.dir
