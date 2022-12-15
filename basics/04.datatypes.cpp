@@ -8,6 +8,7 @@ int main()
   float number3 = 3.545F;
   long number4 = 43434L;
   bool number5 = true;
+  string name="chaudhuree"
   // note: it also has type auto we can replace int/float etc with auto
   return 0;
 }
