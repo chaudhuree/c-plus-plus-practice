@@ -11,8 +11,11 @@ int main()
   // cout<<number;
 
   // doc: print random number between 0 to 6
+  short minValue=1;
+  short maxValue=6;
   srand(time(nullptr));
-  int randomNumber = rand() % 6;
-  cout << randomNumber;
+  int randomNumber1 = (rand() % (maxValue-minValue)+1)+minValue;
+  int randomNumber2 = (rand() % (maxValue-minValue)+1)+minValue;
+  cout << randomNumber1<<", "<<randomNumber2<<endl;
   return 0;
 }
