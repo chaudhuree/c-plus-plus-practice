@@ -3,5 +3,6 @@
     "*.scss": "scss",
     "iostream": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/clion"
 }
