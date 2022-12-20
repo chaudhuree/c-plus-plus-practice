@@ -1,10 +1,9 @@
 #include <iostream>
-#include "my_functions.hpp"
+#include "my_functions.cpp"
 
-using namespace std;
 int main()
 {
   greet("sohan");
-  // cout << addNum(4, 5) << endl;
+  cout << addNum(4, 5) << endl;
   return 0;
 }

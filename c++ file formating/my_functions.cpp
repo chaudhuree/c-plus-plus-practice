@@ -5,7 +5,7 @@ using namespace std;
 
 void greet(string name)
 {
-  cout << "hello" << name << endl;
+  cout << "hello " << name << endl;
 }
 
 int addNum(int a, int b)
